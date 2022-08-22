@@ -4,7 +4,9 @@ import "./About.css"
 
 let About = () => {
   return (
-    <div>about</div>
+    <div>
+      <p>aslam</p>
+    </div>
   )
 }
 export default About
