@@ -4,7 +4,7 @@ import "./Experience.css"
 
 let Experience = () => {
   return (
-    <div>Experience</div>
+    <section id='expirence'>Experience</section>
   )
 }
 export default Experience

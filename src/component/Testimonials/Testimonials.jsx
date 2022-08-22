@@ -4,7 +4,7 @@ import "./Testimonials.css"
 
 let Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <section id='testimonials'>Testimonials</section>
   )
 }
 export default Testimonials

@@ -4,9 +4,9 @@ import "./Service.css"
 
 let Service = () => {
   return (
-    <div>
-    bale
-    </div>
+    <section id='service'>  
+    service
+      </section>
   )
 }
 export default Service

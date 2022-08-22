@@ -8,6 +8,7 @@ import Portfolio from "./component/Portfolio/Portfolio"
 import Testimoinals from "./component/Testimonials/Testimonials"
 import Contact from "./component/Contact/Contact"
 import Footer from "./component/Footer/Footer"
+import Service from './component/Service/Service';
 
 
 
@@ -19,9 +20,10 @@ class App extends Component  {
       <Nav /> 
       <About  />
       <Experience />
+      <Service />
+      <Contact />
       <Portfolio />
       <Testimoinals />
-      <Contact />
       <Footer />
       </>
     );

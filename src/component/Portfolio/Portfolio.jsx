@@ -4,9 +4,9 @@ import "./Portfolio.css"
 
 let Portfolio = () => {
   return (
-    <div>
+    <section id='portfolio'>
     bale
-    </div>
+    </section>
   )
 }
 export default Portfolio

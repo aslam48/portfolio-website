@@ -5,7 +5,7 @@ import "./About.css"
 let About = () => {
   return (
     <div>
-      <p>aslam</p>
+      <section id='about'>aslam</section>
     </div>
   )
 }
