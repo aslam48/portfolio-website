@@ -1,0 +1,14 @@
+import React from 'react'
+import CV from "../../assets/cv.pdf"
+
+
+export const CTA = () => {
+  return (
+    <div className='cta'>
+        <a href='https://digital-resume001.netlify.app/' className='btn btn-primary' >view CV</a>
+        <a href={CV} download className='btn'>Download CV </a>
+        <a href='#contact' className='btn btn-primary'>Let TAlk</a>
+    </div>
+  )
+}
+export default CTA
