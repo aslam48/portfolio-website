@@ -1,0 +1,94 @@
+.expirence__container{
+    background: var( --color-bg-variant);
+    padding:  1.1rem 5rem;
+    width: 60%;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+
+.expirence__container{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+
+.expirence__container:hover{
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+
+.expirence__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+
+.expirence__details{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.expirence__details-icons{
+ margin-top: 6px;
+ color: var(--color-primary);
+}
+
+
+
+
+
+
+
+
+
+
+/* __________________________for tab_______________________ */
+
+@media screen and (max-width:1024px){
+    
+.expirence__container{
+    grid-template-columns: 1fr;
+}
+
+
+.expirence__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.expirence__content{
+    padding: 1rem;
+}
+}
+
+
+
+
+
+
+
+/* __________________________for phone_______________________ */
+
+@media screen and (max-width:600px){
+    .expirence__container{
+        gap: 1rem;
+    }
+
+    .expirence__container  {
+        width: 100%;
+        padding: 1rem 1rem;
+        margin-left: 3%;
+        
+        
+    }
+
+
+}
