@@ -15,7 +15,7 @@ let Experience = () => {
 
             <article className="expirence__details">
             < BsPatchCheckFill className="expirence__details-icons" />
-         <div>
+         <div className="move">
          <h4>HTML</h4>
             <small className="text-light">experienced</small>
          </div>
@@ -23,19 +23,23 @@ let Experience = () => {
 
             <article className="expirence__details">
             < BsPatchCheckFill className="expirence__details-icons" />
-           <div> <h4>CSS</h4>
-            <small className="text-light">Intermediate</small></div>
+           <div  className="move"> 
+           <h4>CSS</h4>
+            <small className="text-light">Intermediate</small>
+            </div>
             </article>
 
             <article className="expirence__details">
             < BsPatchCheckFill className="expirence__details-icons" />
-            <div><h4>JavaScript</h4>
-            <small className="text-light">Intermediate</small></div>
+            <div  className="move">
+              <h4>JavaScript</h4>
+            <small className="text-light">Intermediate</small>
+            </div>
             </article>
 
             <article className="expirence__details">
             < BsPatchCheckFill className="expirence__details-icons" />
-          <div>  
+          <div  className="move">  
             <h4>React.js</h4>
             <small className="text-light">Intermediate</small>
             </div>

@@ -5,7 +5,7 @@ import "./Portfolio.css"
 let Portfolio = () => {
   return (
     <section id='portfolio'>
-    bale
+  {/* bale */}
     </section>
   )
 }

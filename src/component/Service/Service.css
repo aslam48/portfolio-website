@@ -52,16 +52,24 @@
 
   .service{
     height: auto;
+    margin-left: 16%;
   }
 }
 
 
 
 /* ________________________for small__________________________ */
-@media screen and (max-width:1024px) {
+@media screen and (max-width:600px) {
     .services__container{
         grid-template-columns: 1fr;
         gap: 1.5rem;
-        margin-left: 5%;
+        margin:0 auto;
     }
+
+    .service{
+        width: 85%;
+        height: auto;
+       margin: 0 auto;
+      }
+
 }

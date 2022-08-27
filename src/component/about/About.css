@@ -132,5 +132,10 @@
     .about__cards{
         margin-left: 13%;
     }
+    
+.box{
+    padding: 0.7rem;
+}
+
 }
 }

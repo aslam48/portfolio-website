@@ -1,14 +1,15 @@
-.expirence__container{
+.expirence__container > div{
     background: var( --color-bg-variant);
-    padding:  1.1rem 5rem;
-    width: 60%;
+    padding:  2.4rem 5rem;
+    width:60%;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    margin: 0 auto;
 }
 
 
-.expirence__container{
+.expirence__container > div h3{
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
@@ -82,13 +83,13 @@
         gap: 1rem;
     }
 
-    .expirence__container  {
-        width: 100%;
+    .expirence__container > div {
+        width: 90%;
         padding: 1rem 1rem;
-        margin-left: 3%;
-        
-        
+      
     }
+  
+  
 
 
 }
