@@ -119,9 +119,6 @@
         margin-left: 10%;
     }
 
-    
-@media screen and (max-width:600px){
-     
     .about__me-image{
         height: 350px;
         position: absolute;
@@ -138,4 +135,58 @@
 }
 
 }
+
+
+@media screen and (max-width:400px){
+    .about__me-image{
+        height: 320px;
+        position: absolute;
+        margin-top: -30%;
+        margin-left: 14%;
+    }
+       
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+}
+
+
+
+
+/* _______________for 400px side _________ */
+
+@media screen and (max-width:300px){
+    .about__me-image{
+        height: 260px;
+        position: absolute;
+        margin-top: -50%;
+        margin-left: 20%;
+    }
+
+    
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about__card{
+    background: var(  --color-bg-variant);
+    border: 1px solid transparent;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1.1rem;
+    transition: var(--color-primary-variant);
+}
+
 }

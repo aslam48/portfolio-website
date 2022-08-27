@@ -86,10 +86,24 @@
     .expirence__container > div {
         width: 90%;
         padding: 1rem 1rem;
-      
     }
   
+}
+
+
+
+@media screen and (max-width:300px){
+    .expirence__container{
+        gap: 1rem;
+    }
+
+    .expirence__container > div {
+        width: 90%;
+        padding: 1rem 1rem;
+    }
+
+    .expirence__container, h3 ,small{
+        font-size: 11px;
+    }
   
-
-
 }

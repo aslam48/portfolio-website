@@ -54,6 +54,11 @@
     height: auto;
     margin-left: 16%;
   }
+
+  /* .services__container > article{
+    width: 100%;
+    margin-left: 67%;
+  } */
 }
 
 
@@ -72,4 +77,35 @@
        margin: 0 auto;
       }
 
+      
+.service__head{
+    background-color: var(--color-primary);
+    padding: 0.7rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+
+.service__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.1rem;
+}
+}
+
+
+
+@media screen and (max-width:300px) {
+
+.service__head{
+    background-color: var(--color-primary);
+    padding: 0.5rem;
+}
+
+
+.service__list li {
+    display: flex;
+    gap: 0.2rem;
+    margin-bottom: 0.1rem;
+}
 }

@@ -117,3 +117,50 @@ header{
 }
 
 }
+
+
+/* ________for big small phones_____ */
+
+@media screen and (max-width:400px){
+   .btn-primary{
+    padding: 0.35rem 0.3rem;
+   }
+   .btn{
+    padding: 0.35rem 0.3rem;
+   }
+
+   .me{
+    background:linear-gradient(var(--color-primary),transparent);
+    width: 17rem;
+    position: absolute;
+    left: calc(50% - 8rem);
+    margin-top: 4rem;
+    border-radius: 9rem 9rem 0 0 ;
+    overflow: hidden;
+    padding: 4rem 1.4rem 1.4rem 1.4rem;
+   }
+}
+
+
+
+/* __________tiney size_______ */
+
+@media screen and (max-width:300px){
+    .btn-primary{
+     padding: 0.26rem 0.2rem;
+    }
+    .btn{
+     padding: 0.26rem 0.2rem;
+    }
+ 
+    .me{
+     background:linear-gradient(var(--color-primary),transparent);
+     width: 17rem;
+     position: absolute;
+     left: calc(50% - 8rem);
+     margin-top: 4rem;
+     border-radius: 7rem 7rem 0 0 ;
+     overflow: hidden;
+     padding: 1rem 1.1rem 1.1rem 1.1rem;
+    }
+ }
